@@ -48,12 +48,12 @@
 #include <qwt_plot_picker.h>
 #include <qwt_plot_printfilter.h>
 #include <qwt_plot_rasteritem.h>
-#include <qwt_plot_rescaler.h>
 #include <qwt_plot_scaleitem.h>
 #include <qwt_plot_spectrogram.h>
 
 #ifndef Q_WS_MAC    // this doesn't seem to exist on OS X
 #include <qwt_plot_svgitem.h>
+#include <qwt_plot_rescaler.h>
 #endif
 
 #include <qwt_plot_zoomer.h>
