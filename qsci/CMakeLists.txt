@@ -1,5 +1,7 @@
 FIND_PACKAGE(QScintilla REQUIRED)
 
+add_definitions(-DQSCINTILLA_DLL)
+
 include_directories( ${QT_INCLUDES} ${QSCINTILLA_INCLUDE_DIR} ${CMAKE_CURRENT_SOURCE_DIR})
 
 ########### next target ###############

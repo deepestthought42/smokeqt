@@ -1,5 +1,7 @@
 include(FindQwt5)
 
+add_definitions(-DQWT_DLL)
+
 include_directories( ${QT_INCLUDES} ${Qwt5_INCLUDE_DIR} ${CMAKE_CURRENT_SOURCE_DIR})
 
 ########### next target ###############
