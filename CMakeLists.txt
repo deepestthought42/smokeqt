@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 2.8.9)
 project(SMOKEQT4)
 
+if(CMAKE_COMPILER_IS_GNUCXX)
+    message(WARNING "changing compile standard to c++03 due to gcc incompabilities")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++03")
+endif()
 
 add_definitions(-DSMOKE_BUILDING)
 
