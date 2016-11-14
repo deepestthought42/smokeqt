@@ -122,7 +122,6 @@
 #include <qwt_plot_curve.h>
 #include <qwt_plot_dict.h>
 #include <qwt_plot_directpainter.h>
-#include <qwt_plot_glcanvas.h>
 #include <qwt_plot_grid.h>
 #include <qwt_plot.h>
 #include <qwt_plot_histogram.h>
