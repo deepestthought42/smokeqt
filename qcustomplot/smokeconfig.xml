@@ -21,6 +21,7 @@
         <!-- we don't want these private members in smoke.. -->
         <signature>.*::d_ptr.*</signature>
         <signature>.*::q_ptr.*</signature>
+	<signature>.*\(.*Private.*\).*</signature>
 	<signature>.*QCPItemLine::end.*</signature>
 	<signature>.*QCPItemLine::start.*</signature>
 	<signature>.*QCPItemEllipse::topLeft.*</signature>

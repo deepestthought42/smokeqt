@@ -39,10 +39,6 @@ macro_log_feature(QIMAGEBLITZ_FOUND "QImageBlitz" "QImageBlitz library" "http://
 macro_optional_find_package(Qwt5)
 macro_log_feature(Qwt5_Qt4_FOUND "Qwt5 for Qt4" "Qwt5 libraries for Qt4" "http://qwt.sourceforge.net" FALSE "" "Needed to compile Qwt5 bindings")
 
-macro_optional_find_package(QCustomPlot)
-macro_log_feature(QCustomPlot_FOUND "QCustomplot" "QCustomplot libraries" "http://www.qcustomplot.com" FALSE "" "Needed to compile QCustomplot bindings")
-
-
 macro_optional_find_package(Phonon)
 macro_log_feature(PHONON_FOUND "Phonon" "Phonon multimedia framework" "http://www.kde.org" FALSE "" "Needed to compile Phonon bindings")
 
@@ -81,7 +77,7 @@ macro_optional_add_bindings(QSCINTILLA_FOUND "QScintilla" qsci)
 
 macro_optional_add_bindings(Qwt5_Qt4_FOUND "Qwt" qwt)
 
-macro_optional_add_bindings(QCustomPlot_FOUND "QCustomplot" qcustomplot)
+macro_optional_add_bindings(QT_QTGUI_FOUND "QCustomplot" qcustomplot)
 
 macro_optional_add_bindings(QIMAGEBLITZ_FOUND "QImageBlitz" qimageblitz)
 
