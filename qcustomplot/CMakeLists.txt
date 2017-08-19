@@ -3,6 +3,9 @@ include_directories( ${QT_INCLUDES} ${CMAKE_CURRENT_SOURCE_DIR}  )
 configure_file(config.xml.cmake ${CMAKE_CURRENT_BINARY_DIR}/config.xml @ONLY)
 configure_file(qcustomplot.cpp ${CMAKE_CURRENT_BINARY_DIR}/qcustomplot.cpp COPYONLY)
 configure_file(qcustomplot.h ${CMAKE_CURRENT_BINARY_DIR}/qcustomplot.h COPYONLY)
+configure_file(performance.cpp ${CMAKE_CURRENT_BINARY_DIR}/performance.cpp COPYONLY)
+configure_file(performance.h ${CMAKE_CURRENT_BINARY_DIR}/performance.h COPYONLY)
+
 
 add_custom_command(OUTPUT ${CMAKE_CURRENT_BINARY_DIR}/smokedata.cpp
   ${CMAKE_CURRENT_BINARY_DIR}/x_1.cpp
@@ -27,6 +30,7 @@ set ( MOC_HEADERS
 set(smokeqcustomplot_LIB_SRCS
   ${CMAKE_CURRENT_BINARY_DIR}/qcustomplot.cpp
   ${CMAKE_CURRENT_BINARY_DIR}/smokedata.cpp
+  ${CMAKE_CURRENT_BINARY_DIR}/performance.cpp
   ${CMAKE_CURRENT_BINARY_DIR}/x_1.cpp
   ${MOC_SRCS})
 
