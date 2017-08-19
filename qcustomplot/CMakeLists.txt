@@ -49,7 +49,6 @@ ENDIF(CMAKE_CXX_FLAGS MATCHES "-fvisibility")
 add_library(smokeqcustomplot SHARED ${smokeqcustomplot_LIB_SRCS})
 
 target_link_libraries(smokeqcustomplot
-  -L/home/renee/quicklisp/dists/quicklisp/software/qt-libs-20170630-git/standalone/
   smokeqtcore
   ${QT_QTCORE_LIBRARY} ${QT_QTGUI_LIBRARY}
   )
