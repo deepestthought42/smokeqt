@@ -77,6 +77,8 @@ macro_optional_add_bindings(QSCINTILLA_FOUND "QScintilla" qsci)
 
 macro_optional_add_bindings(Qwt5_Qt4_FOUND "Qwt" qwt)
 
+macro_optional_add_bindings(QT_QTGUI_FOUND "QCustomplot2" qcustomplot2)
+
 macro_optional_add_bindings(QIMAGEBLITZ_FOUND "QImageBlitz" qimageblitz)
 
 
