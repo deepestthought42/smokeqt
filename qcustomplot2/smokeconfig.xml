@@ -92,6 +92,14 @@
     </functions>
     <classList>
       <class>QCP</class>
+      <class>QCPAbstractPlottable</class>
+      <class>QCPAbstractItem</class>
+      <class>QCPAbstractLegendItem</class>
+      <class>QCPAbstractPaintBuffer</class>
+      <class>QCPAbstractPlottable</class>
+      <class>QCPAbstractItem</class>
+      <class>QCPAbstractPlottable1D </class>
+      <class>QCPAbstractLegendItem</class>
       <class>QCPVector2D</class>
       <class>QCPPainter</class>
       <class>QCPPaintBufferPixmap</class>
