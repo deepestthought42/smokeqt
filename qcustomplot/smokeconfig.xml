@@ -130,5 +130,6 @@
       <class>QCPItemPixmap</class>
       <class>QCPItemTracer</class>
       <class>QCPItemBracket</class>
+      <class>QCP</class>
     </classList>
 </config>
